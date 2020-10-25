@@ -9,9 +9,7 @@ use Mezzio\Router\Route;
 use Mezzio\Router\RouteResult;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @coversDefaultClass \Chimera\Routing\Mezzio\RouteParamsExtractor
- */
+/** @coversDefaultClass \Chimera\Routing\Mezzio\RouteParamsExtractor */
 final class RouteParamsExtractorTest extends TestCase
 {
     /**

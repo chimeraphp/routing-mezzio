@@ -12,19 +12,13 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
-/**
- * @coversDefaultClass \Chimera\Routing\Mezzio\UriGenerator
- */
+/** @coversDefaultClass \Chimera\Routing\Mezzio\UriGenerator */
 final class UriGeneratorTest extends TestCase
 {
-    /**
-     * @var RouterInterface|MockObject
-     */
+    /** @var RouterInterface|MockObject */
     private $router;
 
-    /**
-     * @before
-     */
+    /** @before */
     public function configureRouter(): void
     {
         $this->router = $this->createMock(RouterInterface::class);
@@ -56,9 +50,7 @@ final class UriGeneratorTest extends TestCase
         self::assertSame('/test', $generator->generateRelativePath($request, 'test', $substitutions));
     }
 
-    /**
-     * @return array<string, array<int, ServerRequest|array<string, string>>>
-     */
+    /** @return array<string, array<int, ServerRequest|array<string, string>>> */
     public function possibleScenarios(): array
     {
         return [

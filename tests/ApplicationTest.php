@@ -21,26 +21,18 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 
-/**
- * @coversDefaultClass \Chimera\Routing\Mezzio\Application
- */
+/** @coversDefaultClass \Chimera\Routing\Mezzio\Application */
 final class ApplicationTest extends TestCase
 {
     private Mezzio $mezzio;
 
-    /**
-     * @var EmitterInterface&MockObject
-     */
+    /** @var EmitterInterface&MockObject */
     private EmitterInterface $emitter;
 
-    /**
-     * @var MiddlewarePipeInterface&MockObject
-     */
+    /** @var MiddlewarePipeInterface&MockObject */
     private MiddlewarePipeInterface $pipeline;
 
-    /**
-     * @before
-     */
+    /** @before */
     public function createDependencies(): void
     {
         $this->pipeline = $this->createMock(MiddlewarePipeInterface::class);
