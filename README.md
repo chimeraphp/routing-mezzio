@@ -47,11 +47,11 @@ production mode so that we don't have useless statements.
 So, for production mode, we recommend you to set `zend.assertions` to `-1` in
 your `php.ini`.  For development you should leave `zend.assertions` as `1` and
 set `assert.exception` to `1`, which will make PHP throw an
-[`AssertionError`](https://secure.php.net/manual/en/class.assertionerror.php)
+[`AssertionError`](https://php.net/assertionerror)
 when things go wrong.
 
 Check the documentation for more information:
-https://secure.php.net/manual/en/function.assert.php
+https://php.net/assert
 
 
 ## Usage
