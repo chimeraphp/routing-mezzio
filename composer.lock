@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "df5432092d2ed20b8258dbdb0f64a219d1baed53"
+                "reference": "989d42b9906ce9bec6030c4ee04c808da6f73c29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/df5432092d2ed20b8258dbdb0f64a219d1baed53",
-                "reference": "df5432092d2ed20b8258dbdb0f64a219d1baed53",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/989d42b9906ce9bec6030c4ee04c808da6f73c29",
+                "reference": "989d42b9906ce9bec6030c4ee04c808da6f73c29",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-26T21:30:16+00:00"
+            "time": "2020-10-27T15:07:32+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "ea42a3a6d4b1fbe5c51b4e6fb9e27fa4248d8bb4"
+                "reference": "9bc8e28a1fdb1a809a622364b55b9d008a253faa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/ea42a3a6d4b1fbe5c51b4e6fb9e27fa4248d8bb4",
-                "reference": "ea42a3a6d4b1fbe5c51b4e6fb9e27fa4248d8bb4",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/9bc8e28a1fdb1a809a622364b55b9d008a253faa",
+                "reference": "9bc8e28a1fdb1a809a622364b55b9d008a253faa",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-27T08:23:48+00:00"
+            "time": "2020-10-27T12:19:00+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -4200,16 +4200,16 @@
         },
         {
             "name": "sebastian/global-state",
-            "version": "5.0.1",
+            "version": "5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "ea779cb749a478b22a2564ac41cd7bda79c78dc7"
+                "reference": "a90ccbddffa067b51f574dea6eb25d5680839455"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/ea779cb749a478b22a2564ac41cd7bda79c78dc7",
-                "reference": "ea779cb749a478b22a2564ac41cd7bda79c78dc7",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/a90ccbddffa067b51f574dea6eb25d5680839455",
+                "reference": "a90ccbddffa067b51f574dea6eb25d5680839455",
                 "shasum": ""
             },
             "require": {
@@ -4256,7 +4256,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-28T05:54:06+00:00"
+            "time": "2020-10-26T15:55:19+00:00"
         },
         {
             "name": "sebastian/lines-of-code",
