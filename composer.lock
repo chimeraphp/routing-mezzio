@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "2cd3760be9b10272ffe330264d77993a06c1128e"
+                "reference": "051807801793a7c84933025eb708e68d8b03f4de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/2cd3760be9b10272ffe330264d77993a06c1128e",
-                "reference": "2cd3760be9b10272ffe330264d77993a06c1128e",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/051807801793a7c84933025eb708e68d8b03f4de",
+                "reference": "051807801793a7c84933025eb708e68d8b03f4de",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +77,7 @@
                 "ramsey/uuid": "^4.1"
             },
             "require-dev": {
-                "infection/infection": "^0.18",
+                "infection/infection": "^0.19",
                 "lcobucci/coding-standard": "^6.0",
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12",
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-28T09:03:12+00:00"
+            "time": "2020-10-28T19:03:23+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "94fe413bb404dc8957fb6afeba6061be77fc06cd"
+                "reference": "709e8aec982847f20069526e55a43407255965eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/94fe413bb404dc8957fb6afeba6061be77fc06cd",
-                "reference": "94fe413bb404dc8957fb6afeba6061be77fc06cd",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/709e8aec982847f20069526e55a43407255965eb",
+                "reference": "709e8aec982847f20069526e55a43407255965eb",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-28T09:17:53+00:00"
+            "time": "2020-10-28T19:41:06+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -4952,27 +4952,22 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v5.1.7",
+            "version": "v5.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "2c3ba7ad6884e6c4451ce2340e2dc23f6fa3e0d8"
+                "reference": "e70eb5a69c2ff61ea135a13d2266e8914a67b3a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/2c3ba7ad6884e6c4451ce2340e2dc23f6fa3e0d8",
-                "reference": "2c3ba7ad6884e6c4451ce2340e2dc23f6fa3e0d8",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/e70eb5a69c2ff61ea135a13d2266e8914a67b3a0",
+                "reference": "e70eb5a69c2ff61ea135a13d2266e8914a67b3a0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.1-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Finder\\": ""
@@ -5011,7 +5006,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-02T16:23:27+00:00"
+            "time": "2020-10-24T12:01:57+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
