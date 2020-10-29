@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "051807801793a7c84933025eb708e68d8b03f4de"
+                "reference": "defcdec70629beac6b7ab06aa9fd9ef1a1bf4195"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/051807801793a7c84933025eb708e68d8b03f4de",
-                "reference": "051807801793a7c84933025eb708e68d8b03f4de",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/defcdec70629beac6b7ab06aa9fd9ef1a1bf4195",
+                "reference": "defcdec70629beac6b7ab06aa9fd9ef1a1bf4195",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-28T19:03:23+00:00"
+            "time": "2020-10-29T14:42:56+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "709e8aec982847f20069526e55a43407255965eb"
+                "reference": "63857c5833a6a6d9764c0f536002bb7e78a9da0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/709e8aec982847f20069526e55a43407255965eb",
-                "reference": "709e8aec982847f20069526e55a43407255965eb",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/63857c5833a6a6d9764c0f536002bb7e78a9da0f",
+                "reference": "63857c5833a6a6d9764c0f536002bb7e78a9da0f",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-28T19:41:06+00:00"
+            "time": "2020-10-29T13:47:55+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -2149,16 +2149,16 @@
         },
         {
             "name": "infection/infection",
-            "version": "0.19.1",
+            "version": "0.19.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "46c17a7fdba19ad05bec7b10e006ce2f00d954a1"
+                "reference": "d1e4b9059ca4b44dda14065f148c9c91af03c9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/46c17a7fdba19ad05bec7b10e006ce2f00d954a1",
-                "reference": "46c17a7fdba19ad05bec7b10e006ce2f00d954a1",
+                "url": "https://api.github.com/repos/infection/infection/zipball/d1e4b9059ca4b44dda14065f148c9c91af03c9f6",
+                "reference": "d1e4b9059ca4b44dda14065f148c9c91af03c9f6",
                 "shasum": ""
             },
             "require": {
@@ -2255,7 +2255,7 @@
                 "testing",
                 "unit testing"
             ],
-            "time": "2020-10-28T09:21:52+00:00"
+            "time": "2020-10-29T07:44:27+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
