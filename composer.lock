@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "defcdec70629beac6b7ab06aa9fd9ef1a1bf4195"
+                "reference": "411838446d1f64a92a6df58f9ad22f0e5cbd0cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/defcdec70629beac6b7ab06aa9fd9ef1a1bf4195",
-                "reference": "defcdec70629beac6b7ab06aa9fd9ef1a1bf4195",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/411838446d1f64a92a6df58f9ad22f0e5cbd0cdb",
+                "reference": "411838446d1f64a92a6df58f9ad22f0e5cbd0cdb",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-29T14:42:56+00:00"
+            "time": "2020-10-30T17:45:25+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "63857c5833a6a6d9764c0f536002bb7e78a9da0f"
+                "reference": "ee42090d0f3a47779bb2046d88a87cf1b6fcb25d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/63857c5833a6a6d9764c0f536002bb7e78a9da0f",
-                "reference": "63857c5833a6a6d9764c0f536002bb7e78a9da0f",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/ee42090d0f3a47779bb2046d88a87cf1b6fcb25d",
+                "reference": "ee42090d0f3a47779bb2046d88a87cf1b6fcb25d",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-29T13:47:55+00:00"
+            "time": "2020-10-30T17:57:51+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -3215,23 +3215,23 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.2",
+            "version": "9.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "229099d7d69fe5044f6e464f669b1fd34f252e8d"
+                "reference": "6b20e2055f7c29b56cb3870b3de7cc463d7add41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/229099d7d69fe5044f6e464f669b1fd34f252e8d",
-                "reference": "229099d7d69fe5044f6e464f669b1fd34f252e8d",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6b20e2055f7c29b56cb3870b3de7cc463d7add41",
+                "reference": "6b20e2055f7c29b56cb3870b3de7cc463d7add41",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
-                "nikic/php-parser": "^4.8",
+                "nikic/php-parser": "^4.10.2",
                 "php": ">=7.3",
                 "phpunit/php-file-iterator": "^3.0.3",
                 "phpunit/php-text-template": "^2.0.2",
@@ -3284,7 +3284,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-28T06:24:13+00:00"
+            "time": "2020-10-30T10:46:41+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
