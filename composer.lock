@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c191ba5688d18144830a9bcc4ec41f7",
+    "content-hash": "5aab171d9f27d509ac721f748209bb4d",
     "packages": [
         {
             "name": "brick/math",
@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "411838446d1f64a92a6df58f9ad22f0e5cbd0cdb"
+                "reference": "90c0ae4972c443f4ccb969c2cfc97ef140e80c88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/411838446d1f64a92a6df58f9ad22f0e5cbd0cdb",
-                "reference": "411838446d1f64a92a6df58f9ad22f0e5cbd0cdb",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/90c0ae4972c443f4ccb969c2cfc97ef140e80c88",
+                "reference": "90c0ae4972c443f4ccb969c2cfc97ef140e80c88",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +77,7 @@
                 "ramsey/uuid": "^4.1"
             },
             "require-dev": {
-                "infection/infection": "^0.19",
+                "infection/infection": "^0.20",
                 "lcobucci/coding-standard": "^6.0",
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12",
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-30T17:45:25+00:00"
+            "time": "2020-11-02T06:24:24+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "ee42090d0f3a47779bb2046d88a87cf1b6fcb25d"
+                "reference": "03fbcc1d81dc83326ed7718c8a9932ebcb5a60d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/ee42090d0f3a47779bb2046d88a87cf1b6fcb25d",
-                "reference": "ee42090d0f3a47779bb2046d88a87cf1b6fcb25d",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/03fbcc1d81dc83326ed7718c8a9932ebcb5a60d5",
+                "reference": "03fbcc1d81dc83326ed7718c8a9932ebcb5a60d5",
                 "shasum": ""
             },
             "require": {
@@ -144,7 +144,7 @@
                 "psr/http-server-middleware": "^1.0"
             },
             "require-dev": {
-                "infection/infection": "^0.19",
+                "infection/infection": "^0.20",
                 "laminas/laminas-diactoros": "^2.4",
                 "lcobucci/coding-standard": "^6.0",
                 "phpstan/extension-installer": "^1.0",
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-30T17:57:51+00:00"
+            "time": "2020-11-02T06:21:08+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -2149,16 +2149,16 @@
         },
         {
             "name": "infection/infection",
-            "version": "0.19.2",
+            "version": "0.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "d1e4b9059ca4b44dda14065f148c9c91af03c9f6"
+                "reference": "735506ce5fc35dd504c9ba147d5fe0554898b232"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/d1e4b9059ca4b44dda14065f148c9c91af03c9f6",
-                "reference": "d1e4b9059ca4b44dda14065f148c9c91af03c9f6",
+                "url": "https://api.github.com/repos/infection/infection/zipball/735506ce5fc35dd504c9ba147d5fe0554898b232",
+                "reference": "735506ce5fc35dd504c9ba147d5fe0554898b232",
                 "shasum": ""
             },
             "require": {
@@ -2196,6 +2196,7 @@
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12.8",
                 "phpstan/phpstan-phpunit": "^0.12.6",
+                "phpstan/phpstan-strict-rules": "^0.12.5",
                 "phpstan/phpstan-webmozart-assert": "^0.12.2",
                 "phpunit/phpunit": "^9.3.11",
                 "symfony/phpunit-bridge": "^4.4.14 || ^5.1.6",
@@ -2255,7 +2256,7 @@
                 "testing",
                 "unit testing"
             ],
-            "time": "2020-10-29T07:44:27+00:00"
+            "time": "2020-10-31T19:41:12+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
