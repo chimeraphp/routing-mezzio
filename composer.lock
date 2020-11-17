@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "5b6d17808279c8460c487459da366837c00956df"
+                "reference": "3455842c4154d840da316bd8ca1e176de8c5eb95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/5b6d17808279c8460c487459da366837c00956df",
-                "reference": "5b6d17808279c8460c487459da366837c00956df",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/3455842c4154d840da316bd8ca1e176de8c5eb95",
+                "reference": "3455842c4154d840da316bd8ca1e176de8c5eb95",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-11-14T10:29:21+00:00"
+            "time": "2020-11-16T23:08:57+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "df4ed18a944db0bad3531181e8d76b0bf5f9256a"
+                "reference": "53332a3d60d89b7c63be0f395dc2f07aa2354a2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/df4ed18a944db0bad3531181e8d76b0bf5f9256a",
-                "reference": "df4ed18a944db0bad3531181e8d76b0bf5f9256a",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/53332a3d60d89b7c63be0f395dc2f07aa2354a2f",
+                "reference": "53332a3d60d89b7c63be0f395dc2f07aa2354a2f",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-11-14T10:27:48+00:00"
+            "time": "2020-11-16T23:08:37+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -333,36 +333,36 @@
         },
         {
             "name": "laminas/laminas-escaper",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
-                "reference": "25f2a053eadfa92ddacb609dcbbc39362610da70"
+                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/25f2a053eadfa92ddacb609dcbbc39362610da70",
-                "reference": "25f2a053eadfa92ddacb609dcbbc39362610da70",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/5e04bc5ae5990b17159d79d331055e2c645e5cc5",
+                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^5.6 || ^7.0"
+                "php": "^7.3 || ~8.0.0"
             },
             "replace": {
-                "zendframework/zend-escaper": "self.version"
+                "zendframework/zend-escaper": "^2.6.1"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
-                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2"
+                "phpunit/phpunit": "^9.3",
+                "psalm/plugin-phpunit": "^0.12.2",
+                "vimeo/psalm": "^3.16"
+            },
+            "suggest": {
+                "ext-iconv": "*",
+                "ext-mbstring": "*"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.6.x-dev",
-                    "dev-develop": "2.7.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Laminas\\Escaper\\": "src/"
@@ -378,7 +378,13 @@
                 "escaper",
                 "laminas"
             ],
-            "time": "2019-12-31T16:43:30+00:00"
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2020-11-17T21:26:43+00:00"
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
