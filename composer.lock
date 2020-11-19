@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "53332a3d60d89b7c63be0f395dc2f07aa2354a2f"
+                "reference": "338b0cec53be86cf7633b710268f42eae2c624da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/53332a3d60d89b7c63be0f395dc2f07aa2354a2f",
-                "reference": "53332a3d60d89b7c63be0f395dc2f07aa2354a2f",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/338b0cec53be86cf7633b710268f42eae2c624da",
+                "reference": "338b0cec53be86cf7633b710268f42eae2c624da",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
             },
             "require-dev": {
                 "infection/infection": "^0.20",
-                "laminas/laminas-diactoros": "^2.4",
+                "laminas/laminas-diactoros": "^2.5",
                 "lcobucci/coding-standard": "^6.0",
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12",
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-11-16T23:08:37+00:00"
+            "time": "2020-11-18T18:44:54+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -389,21 +389,21 @@
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-                "reference": "e1a5dad040e0043135e8095ee27d1fbf6fb640e1"
+                "reference": "e8f850bd12cb82b268ff235fe74b2df906e8bfe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/e1a5dad040e0043135e8095ee27d1fbf6fb640e1",
-                "reference": "e1a5dad040e0043135e8095ee27d1fbf6fb640e1",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/e8f850bd12cb82b268ff235fe74b2df906e8bfe8",
+                "reference": "e8f850bd12cb82b268ff235fe74b2df906e8bfe8",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^7.1",
+                "php": "^7.3 || ~8.0.0",
                 "psr/http-message": "^1.0",
                 "psr/http-message-implementation": "^1.0",
                 "psr/http-server-handler": "^1.0"
@@ -413,15 +413,11 @@
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
-                "laminas/laminas-diactoros": "^1.7 || ^2.1.1",
-                "phpunit/phpunit": "^7.0.2"
+                "laminas/laminas-diactoros": "^2.1.1",
+                "phpunit/phpunit": "^9.3"
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev",
-                    "dev-develop": "1.3.x-dev"
-                },
                 "laminas": {
                     "config-provider": "Laminas\\HttpHandlerRunner\\ConfigProvider"
                 }
@@ -450,7 +446,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-06-03T15:52:17+00:00"
+            "time": "2020-11-19T17:12:59+00:00"
         },
         {
             "name": "laminas/laminas-stdlib",
