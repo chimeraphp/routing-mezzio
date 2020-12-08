@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "9257dc5b0a4b138fb3d36925da4221ebb34685ae"
+                "reference": "3296ffb2dda5b173bfa5cad9dc54cad3e0c0a1e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/9257dc5b0a4b138fb3d36925da4221ebb34685ae",
-                "reference": "9257dc5b0a4b138fb3d36925da4221ebb34685ae",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/3296ffb2dda5b173bfa5cad9dc54cad3e0c0a1e9",
+                "reference": "3296ffb2dda5b173bfa5cad9dc54cad3e0c0a1e9",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-04T06:09:18+00:00"
+            "time": "2020-12-08T06:47:31+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "42ade50a8b6b9dd97e3e746ca490e473aa3790be"
+                "reference": "e6d09cd5c2e335d164e5ff30ec75da736db2ff31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/42ade50a8b6b9dd97e3e746ca490e473aa3790be",
-                "reference": "42ade50a8b6b9dd97e3e746ca490e473aa3790be",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/e6d09cd5c2e335d164e5ff30ec75da736db2ff31",
+                "reference": "e6d09cd5c2e335d164e5ff30ec75da736db2ff31",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-04T06:09:28+00:00"
+            "time": "2020-12-08T06:53:20+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -1829,22 +1829,22 @@
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
-            "version": "v0.7.0",
+            "version": "v0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git",
-                "reference": "e8d808670b8f882188368faaf1144448c169c0b7"
+                "reference": "fe390591e0241955f22eb9ba327d137e501c771c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/e8d808670b8f882188368faaf1144448c169c0b7",
-                "reference": "e8d808670b8f882188368faaf1144448c169c0b7",
+                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/fe390591e0241955f22eb9ba327d137e501c771c",
+                "reference": "fe390591e0241955f22eb9ba327d137e501c771c",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
                 "php": ">=5.3",
-                "squizlabs/php_codesniffer": "^2 || ^3 || 4.0.x-dev"
+                "squizlabs/php_codesniffer": "^2.0 || ^3.0 || ^4.0"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -1891,7 +1891,7 @@
                 "stylecheck",
                 "tests"
             ],
-            "time": "2020-06-25T14:57:39+00:00"
+            "time": "2020-12-07T18:04:37+00:00"
         },
         {
             "name": "doctrine/coding-standard",
