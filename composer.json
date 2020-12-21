@@ -19,7 +19,7 @@
         "chimera/routing": "^0.4@dev",
         "laminas/laminas-diactoros": "^2.5",
         "mezzio/mezzio": "^3.2",
-        "mezzio/mezzio-fastroute": "^3.0",
+        "mezzio/mezzio-fastroute": "^3.1",
         "mezzio/mezzio-helpers": "^5.4"
     },
     "require-dev": {

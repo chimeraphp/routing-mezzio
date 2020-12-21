@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4aae3049b9d7b093f967ed1f5ab93856",
+    "content-hash": "1c41324c102b1fe81cc208ec14511176",
     "packages": [
         {
             "name": "brick/math",
@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "3100a7d79ab1a98555dd24638a8274da392b92b9"
+                "reference": "65287fb9adce05aa609f63468e5434bf47051cc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/3100a7d79ab1a98555dd24638a8274da392b92b9",
-                "reference": "3100a7d79ab1a98555dd24638a8274da392b92b9",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/65287fb9adce05aa609f63468e5434bf47051cc9",
+                "reference": "65287fb9adce05aa609f63468e5434bf47051cc9",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-19T10:26:09+00:00"
+            "time": "2020-12-20T10:09:28+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "7b1fc33f5fb1e41f95ef8c813028a242d1f2070c"
+                "reference": "c7186551315366885c07fc4051a859818e6cf17c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/7b1fc33f5fb1e41f95ef8c813028a242d1f2070c",
-                "reference": "7b1fc33f5fb1e41f95ef8c813028a242d1f2070c",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/c7186551315366885c07fc4051a859818e6cf17c",
+                "reference": "c7186551315366885c07fc4051a859818e6cf17c",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-19T10:24:59+00:00"
+            "time": "2020-12-20T10:09:52+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -810,25 +810,25 @@
         },
         {
             "name": "mezzio/mezzio-fastroute",
-            "version": "3.0.3",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mezzio/mezzio-fastroute.git",
-                "reference": "3e7d8ade90c3c2ef68a1f798c11c0c396ed40929"
+                "reference": "02fb02ad21e948aa955f871829eb15ac35ee449a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mezzio/mezzio-fastroute/zipball/3e7d8ade90c3c2ef68a1f798c11c0c396ed40929",
-                "reference": "3e7d8ade90c3c2ef68a1f798c11c0c396ed40929",
+                "url": "https://api.github.com/repos/mezzio/mezzio-fastroute/zipball/02fb02ad21e948aa955f871829eb15ac35ee449a",
+                "reference": "02fb02ad21e948aa955f871829eb15ac35ee449a",
                 "shasum": ""
             },
             "require": {
                 "fig/http-message-util": "^1.1.2",
                 "laminas/laminas-stdlib": "^2.0 || ^3.1",
                 "laminas/laminas-zendframework-bridge": "^1.0",
-                "mezzio/mezzio-router": "^3.0",
+                "mezzio/mezzio-router": "^3.2",
                 "nikic/fast-route": "^1.2",
-                "php": "^7.1",
+                "php": "^7.3 || ~8.0.0",
                 "psr/container": "^1.0",
                 "psr/http-message": "^1.0.1"
             },
@@ -836,22 +836,18 @@
                 "container-interop/container-interop": "<1.2.0"
             },
             "replace": {
-                "zendframework/zend-expressive-fastroute": "self.version"
+                "zendframework/zend-expressive-fastroute": "^3.0.3"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
                 "laminas/laminas-diactoros": "^1.7.1",
                 "laminas/laminas-stratigility": "^3.0",
                 "malukenho/docheader": "^0.1.6",
-                "mikey179/vfsstream": "^1.6.5",
-                "phpunit/phpunit": "^7.0.2"
+                "mikey179/vfsstream": "^1.6.7",
+                "phpunit/phpunit": "^9.4.1"
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0.x-dev",
-                    "dev-develop": "3.1.x-dev"
-                },
                 "laminas": {
                     "config-provider": "Mezzio\\Router\\FastRouteRouter\\ConfigProvider"
                 }
@@ -876,7 +872,13 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2019-12-31T15:43:56+00:00"
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2020-12-21T02:11:53+00:00"
         },
         {
             "name": "mezzio/mezzio-helpers",
