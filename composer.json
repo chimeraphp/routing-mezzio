@@ -1,7 +1,7 @@
 {
     "name": "chimera/routing-mezzio",
-    "description": "Laminas Mezzio implementation for chimera/routing",
     "type": "library",
+    "description": "Laminas Mezzio implementation for chimera/routing",
     "license": "MIT",
     "authors": [
         {
@@ -9,10 +9,6 @@
             "email": "lcobucci@gmail.com"
         }
     ],
-    "config": {
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
     "require": {
         "php": "^7.4 || ^8.0",
         "chimera/foundation": "^0.4@dev",
@@ -21,6 +17,12 @@
         "mezzio/mezzio": "^3.2",
         "mezzio/mezzio-fastroute": "^3.1",
         "mezzio/mezzio-helpers": "^5.4"
+    },
+    "replace": {
+        "chimera/routing-expressive": "*"
+    },
+    "provide": {
+        "chimera/routing-implementation": "0.4.0"
     },
     "require-dev": {
         "infection/infection": "^0.20",
@@ -32,11 +34,14 @@
         "phpstan/phpstan-strict-rules": "^0.12",
         "phpunit/phpunit": "^9.5"
     },
-    "provide": {
-        "chimera/routing-implementation": "0.4.0"
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
     },
-    "replace": {
-        "chimera/routing-expressive": "*"
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.4.x-dev"
+        }
     },
     "autoload": {
         "psr-4": {
@@ -46,11 +51,6 @@
     "autoload-dev": {
         "psr-4": {
             "Chimera\\Routing\\Mezzio\\Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.4.x-dev"
         }
     }
 }
