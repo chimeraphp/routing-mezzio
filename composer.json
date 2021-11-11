@@ -17,7 +17,7 @@
         "mezzio/mezzio": "^3.5",
         "mezzio/mezzio-fastroute": "^3.2",
         "mezzio/mezzio-helpers": "^5.6",
-        "mezzio/mezzio-router": "^3.4",
+        "mezzio/mezzio-router": "^3.7",
         "psr/http-message": "^1.0"
     },
     "replace": {
