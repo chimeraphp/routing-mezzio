@@ -15,7 +15,7 @@
         "chimera/routing": "^0.4",
         "laminas/laminas-diactoros": "^2.8",
         "mezzio/mezzio": "^3.6",
-        "mezzio/mezzio-fastroute": "^3.2",
+        "mezzio/mezzio-fastroute": "^3.3",
         "mezzio/mezzio-helpers": "^5.7",
         "mezzio/mezzio-router": "^3.4",
         "psr/http-message": "^1.0"
