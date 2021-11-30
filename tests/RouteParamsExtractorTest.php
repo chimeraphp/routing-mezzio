@@ -34,7 +34,7 @@ final class RouteParamsExtractorTest extends TestCase
     {
         $routeResult = RouteResult::fromRoute(
             $this->createMock(Route::class),
-            ['test' => '1']
+            ['test' => '1'],
         );
 
         $extractor = new RouteParamsExtractor();
