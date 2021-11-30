@@ -43,8 +43,9 @@ final class UriGenerator implements UriGeneratorInterface
         $routeParams = $request->getAttribute(RouteParamsExtraction::class);
         assert(is_array($routeParams));
 
+        // TODO: now that we have PHP 8.0+ we can leverage the Stringable interface
         if ($generatedId !== null) {
-            $substitutions['id'] = (string) $generatedId;
+            $substitutions['id'] = (string) $generatedId;  // @phpstan-ignore-line
         }
 
         return $substitutions + $routeParams;
