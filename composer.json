@@ -14,7 +14,7 @@
         "chimera/foundation": "^0.5.x-dev",
         "chimera/routing": "^0.5.x-dev",
         "laminas/laminas-diactoros": "^2.8",
-        "mezzio/mezzio": "^3.6",
+        "mezzio/mezzio": "^3.7",
         "mezzio/mezzio-fastroute": "^3.3",
         "mezzio/mezzio-helpers": "^5.7",
         "mezzio/mezzio-router": "^3.4",
