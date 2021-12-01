@@ -15,8 +15,8 @@ use Psr\Http\Message\ServerRequestInterface;
 /** @coversDefaultClass \Chimera\Routing\Mezzio\UriGenerator */
 final class UriGeneratorTest extends TestCase
 {
-    /** @var RouterInterface|MockObject */
-    private $router;
+    /** @var RouterInterface&MockObject */
+    private RouterInterface $router;
 
     /** @before */
     public function configureRouter(): void
@@ -32,13 +32,13 @@ final class UriGeneratorTest extends TestCase
      * @covers ::generateRelativePath()
      * @covers ::getSubstitutions()
      *
-     * @param string[] $substitutions
-     * @param string[] $expectedSubstitutions
+     * @param array<string, string> $substitutions
+     * @param array<string, string> $expectedSubstitutions
      */
     public function generateRelativePathShouldCallTheRouterToGeneratePaths(
         ServerRequestInterface $request,
         array $substitutions,
-        array $expectedSubstitutions
+        array $expectedSubstitutions,
     ): void {
         $generator = new UriGenerator($this->router);
 
@@ -50,43 +50,46 @@ final class UriGeneratorTest extends TestCase
         self::assertSame('/test', $generator->generateRelativePath($request, 'test', $substitutions));
     }
 
-    /** @return array<string, array<int, ServerRequest|array<string, string>>> */
-    public function possibleScenarios(): array
+    /** @return iterable<string, array{ServerRequestInterface, array<string, string>, array<string, string>}> */
+    public function possibleScenarios(): iterable
     {
-        return [
-            'no data at all'      => [
-                (new ServerRequest())->withAttribute(RouteParamsExtraction::class, []),
-                [],
-                [],
-            ],
-            'route args only'     => [
-                (new ServerRequest())->withAttribute(RouteParamsExtraction::class, ['test' => '1']),
-                [],
-                ['test' => '1'],
-            ],
-            'route args + subs'   => [
-                (new ServerRequest())->withAttribute(RouteParamsExtraction::class, ['test' => '2', 'a' => '1']),
-                ['test' => '1'],
-                ['test' => '1', 'a' => '1'],
-            ],
-            'id only'             => [
-                (new ServerRequest())->withAttribute(RouteParamsExtraction::class, [])
-                                     ->withAttribute(IdentifierGenerator::class, 1),
-                [],
-                ['id' => '1'],
-            ],
-            'id only + subs'      => [
-                (new ServerRequest())->withAttribute(RouteParamsExtraction::class, [])
-                                     ->withAttribute(IdentifierGenerator::class, 1),
-                ['test' => '1', 'id' => '1234'],
-                ['test' => '1', 'id' => '1'],
-            ],
-            'everything together' => [
-                (new ServerRequest())->withAttribute(RouteParamsExtraction::class, ['test' => '2', 'a' => '1'])
-                                     ->withAttribute(IdentifierGenerator::class, 1),
-                ['test' => '1', 'id' => '1234'],
-                ['test' => '1', 'id' => '1', 'a' => '1'],
-            ],
+        yield 'no data at all' => [
+            (new ServerRequest())->withAttribute(RouteParamsExtraction::class, []),
+            [],
+            [],
+        ];
+
+        yield 'route args only' => [
+            (new ServerRequest())->withAttribute(RouteParamsExtraction::class, ['test' => '1']),
+            [],
+            ['test' => '1'],
+        ];
+
+        yield 'route args + subs' => [
+            (new ServerRequest())->withAttribute(RouteParamsExtraction::class, ['test' => '2', 'a' => '1']),
+            ['test' => '1'],
+            ['test' => '1', 'a' => '1'],
+        ];
+
+        yield 'id only' => [
+            (new ServerRequest())->withAttribute(RouteParamsExtraction::class, [])
+                                 ->withAttribute(IdentifierGenerator::class, 1),
+            [],
+            ['id' => '1'],
+        ];
+
+        yield 'id only + subs' => [
+            (new ServerRequest())->withAttribute(RouteParamsExtraction::class, [])
+                                 ->withAttribute(IdentifierGenerator::class, 1),
+            ['test' => '1', 'id' => '1234'],
+            ['test' => '1', 'id' => '1'],
+        ];
+
+        yield 'everything together' => [
+            (new ServerRequest())->withAttribute(RouteParamsExtraction::class, ['test' => '2', 'a' => '1'])
+                                 ->withAttribute(IdentifierGenerator::class, 1),
+            ['test' => '1', 'id' => '1234'],
+            ['test' => '1', 'id' => '1', 'a' => '1'],
         ];
     }
 }

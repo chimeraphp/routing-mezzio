@@ -10,11 +10,8 @@ use Psr\Http\Message\ServerRequestInterface;
 
 final class Application implements ApplicationInterface
 {
-    private Mezzio $application;
-
-    public function __construct(Mezzio $application)
+    public function __construct(private Mezzio $application)
     {
-        $this->application = $application;
     }
 
     public function handle(ServerRequestInterface $request): ResponseInterface

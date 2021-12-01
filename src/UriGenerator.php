@@ -14,11 +14,8 @@ use function is_array;
 
 final class UriGenerator implements UriGeneratorInterface
 {
-    private RouterInterface $router;
-
-    public function __construct(RouterInterface $router)
+    public function __construct(private RouterInterface $router)
     {
-        $this->router = $router;
     }
 
     /**
@@ -27,11 +24,11 @@ final class UriGenerator implements UriGeneratorInterface
     public function generateRelativePath(
         ServerRequestInterface $request,
         string $routeName,
-        array $substitutions = []
+        array $substitutions = [],
     ): string {
         return $this->router->generateUri(
             $routeName,
-            $this->getSubstitutions($request, $substitutions)
+            $this->getSubstitutions($request, $substitutions),
         );
     }
 
@@ -46,8 +43,9 @@ final class UriGenerator implements UriGeneratorInterface
         $routeParams = $request->getAttribute(RouteParamsExtraction::class);
         assert(is_array($routeParams));
 
+        // TODO: now that we have PHP 8.0+ we can leverage the Stringable interface
         if ($generatedId !== null) {
-            $substitutions['id'] = (string) $generatedId;
+            $substitutions['id'] = (string) $generatedId;  // @phpstan-ignore-line
         }
 
         return $substitutions + $routeParams;
