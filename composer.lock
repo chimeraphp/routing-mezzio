@@ -72,12 +72,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "2c3da4e542cee79ed068326cf6486e368c9a76c1"
+                "reference": "ac35164f8cd55877deab5ebfefa5e2f5e8cdafbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/2c3da4e542cee79ed068326cf6486e368c9a76c1",
-                "reference": "2c3da4e542cee79ed068326cf6486e368c9a76c1",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/ac35164f8cd55877deab5ebfefa5e2f5e8cdafbd",
+                "reference": "ac35164f8cd55877deab5ebfefa5e2f5e8cdafbd",
                 "shasum": ""
             },
             "require": {
@@ -126,7 +126,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-11-26T20:01:16+00:00"
+            "time": "2021-12-01T09:49:44+00:00"
         },
         {
             "name": "chimera/routing",
@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "26c4d511941d154f6b2f5720b7162df29ec6594b"
+                "reference": "cc51fa29f9b2bce3005507f972942b46e70a73c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/26c4d511941d154f6b2f5720b7162df29ec6594b",
-                "reference": "26c4d511941d154f6b2f5720b7162df29ec6594b",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/cc51fa29f9b2bce3005507f972942b46e70a73c2",
+                "reference": "cc51fa29f9b2bce3005507f972942b46e70a73c2",
                 "shasum": ""
             },
             "require": {
@@ -196,7 +196,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-11-26T20:34:52+00:00"
+            "time": "2021-12-01T09:49:59+00:00"
         },
         {
             "name": "fig/http-message-util",
