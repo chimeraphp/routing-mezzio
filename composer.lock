@@ -1184,16 +1184,16 @@
         },
         {
             "name": "middlewares/negotiation",
-            "version": "v2.0.2",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/middlewares/negotiation.git",
-                "reference": "1b3d903b17f2193adb4319fb7ddbb98e6b9ab33c"
+                "reference": "82a79066b2a78b8fa5fb4210b6f84fe4b9af70e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/middlewares/negotiation/zipball/1b3d903b17f2193adb4319fb7ddbb98e6b9ab33c",
-                "reference": "1b3d903b17f2193adb4319fb7ddbb98e6b9ab33c",
+                "url": "https://api.github.com/repos/middlewares/negotiation/zipball/82a79066b2a78b8fa5fb4210b6f84fe4b9af70e5",
+                "reference": "82a79066b2a78b8fa5fb4210b6f84fe4b9af70e5",
                 "shasum": ""
             },
             "require": {
@@ -1235,9 +1235,9 @@
             ],
             "support": {
                 "issues": "https://github.com/middlewares/negotiation/issues",
-                "source": "https://github.com/middlewares/negotiation/tree/v2.0.2"
+                "source": "https://github.com/middlewares/negotiation/tree/v2.1.0"
             },
-            "time": "2020-12-02T00:06:29+00:00"
+            "time": "2022-01-08T13:06:20+00:00"
         },
         {
             "name": "middlewares/utils",
@@ -2102,16 +2102,16 @@
         },
         {
             "name": "willdurand/negotiation",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "04e14f38d4edfcc974114a07d2777d90c98f3d9c"
+                "reference": "68e9ea0553ef6e2ee8db5c1d98829f111e623ec2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/04e14f38d4edfcc974114a07d2777d90c98f3d9c",
-                "reference": "04e14f38d4edfcc974114a07d2777d90c98f3d9c",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/68e9ea0553ef6e2ee8db5c1d98829f111e623ec2",
+                "reference": "68e9ea0553ef6e2ee8db5c1d98829f111e623ec2",
                 "shasum": ""
             },
             "require": {
@@ -2152,9 +2152,9 @@
             ],
             "support": {
                 "issues": "https://github.com/willdurand/Negotiation/issues",
-                "source": "https://github.com/willdurand/Negotiation/tree/3.0.0"
+                "source": "https://github.com/willdurand/Negotiation/tree/3.1.0"
             },
-            "time": "2020-09-25T08:01:41+00:00"
+            "time": "2022-01-30T20:08:53+00:00"
         }
     ],
     "packages-dev": [
