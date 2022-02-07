@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f5f9c08d74333d9d15e50505622a5a1",
+    "content-hash": "efccd2ff947a989206fa13e1ed025ebb",
     "packages": [
         {
             "name": "brick/math",
@@ -628,16 +628,16 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "bf180a382393e7db5c1e8d0f2ec0c4af9c724baf"
+                "reference": "88bf037259869891afce6504cacc4f8a07b24d0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/bf180a382393e7db5c1e8d0f2ec0c4af9c724baf",
-                "reference": "bf180a382393e7db5c1e8d0f2ec0c4af9c724baf",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/88bf037259869891afce6504cacc4f8a07b24d0f",
+                "reference": "88bf037259869891afce6504cacc4f8a07b24d0f",
                 "shasum": ""
             },
             "require": {
@@ -686,7 +686,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-09-03T17:53:30+00:00"
+            "time": "2021-12-21T14:34:37+00:00"
         },
         {
             "name": "lcobucci/content-negotiation-middleware",
@@ -958,22 +958,22 @@
         },
         {
             "name": "mezzio/mezzio-helpers",
-            "version": "5.7.0",
+            "version": "5.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mezzio/mezzio-helpers.git",
-                "reference": "8ba1bcf38689db21e2ccac699d99b66ded700162"
+                "reference": "6e231cd6ad09eae7c2d9bac71441b496159dba28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mezzio/mezzio-helpers/zipball/8ba1bcf38689db21e2ccac699d99b66ded700162",
-                "reference": "8ba1bcf38689db21e2ccac699d99b66ded700162",
+                "url": "https://api.github.com/repos/mezzio/mezzio-helpers/zipball/6e231cd6ad09eae7c2d9bac71441b496159dba28",
+                "reference": "6e231cd6ad09eae7c2d9bac71441b496159dba28",
                 "shasum": ""
             },
             "require": {
                 "mezzio/mezzio-router": "^3.0",
-                "php": "^7.3 || ~8.0.0 || ~8.1.0",
-                "psr/container": "^1.0",
+                "php": "^7.4 || ~8.0.0 || ~8.1.0",
+                "psr/container": "^1.0 || ^2.0",
                 "psr/http-message": "^1.0.1",
                 "psr/http-server-middleware": "^1.0"
             },
@@ -982,13 +982,13 @@
             },
             "require-dev": {
                 "ext-json": "*",
-                "laminas/laminas-coding-standard": "~2.2.0",
+                "laminas/laminas-coding-standard": "~2.3.0",
                 "laminas/laminas-diactoros": "^2.5.0",
                 "mockery/mockery": "^1.4.2",
                 "phpspec/prophecy-phpunit": "^2.0",
-                "phpunit/phpunit": "^9.4.2",
+                "phpunit/phpunit": "^9.5.11",
                 "psalm/plugin-phpunit": "^0.15.1",
-                "vimeo/psalm": "^4.7"
+                "vimeo/psalm": "^4.17"
             },
             "suggest": {
                 "ext-json": "If you wish to use the JsonStrategy with BodyParamsMiddleware"
@@ -1032,26 +1032,26 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-10-13T17:13:37+00:00"
+            "time": "2022-01-06T16:10:11+00:00"
         },
         {
             "name": "mezzio/mezzio-router",
-            "version": "3.7.0",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mezzio/mezzio-router.git",
-                "reference": "08d52bdad8a9e89ef482a10516264563bd596c93"
+                "reference": "27075d3e9b407791abf7ba5e62954a59be4b18df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mezzio/mezzio-router/zipball/08d52bdad8a9e89ef482a10516264563bd596c93",
-                "reference": "08d52bdad8a9e89ef482a10516264563bd596c93",
+                "url": "https://api.github.com/repos/mezzio/mezzio-router/zipball/27075d3e9b407791abf7ba5e62954a59be4b18df",
+                "reference": "27075d3e9b407791abf7ba5e62954a59be4b18df",
                 "shasum": ""
             },
             "require": {
                 "fig/http-message-util": "^1.1.2",
-                "php": "^7.3 || ~8.0.0 || ~8.1.0",
-                "psr/container": "^1.0",
+                "php": "^7.4 || ~8.0.0 || ~8.1.0",
+                "psr/container": "^1.0 || ^2.0",
                 "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0.1",
                 "psr/http-server-middleware": "^1.0",
@@ -1062,14 +1062,14 @@
                 "zendframework/zend-expressive-router": "*"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~2.2.0",
+                "laminas/laminas-coding-standard": "~2.3.0",
                 "laminas/laminas-diactoros": "^2.6",
                 "laminas/laminas-stratigility": "^3.4",
                 "phpspec/prophecy": "^1.9",
                 "phpspec/prophecy-phpunit": "^2.0",
-                "phpunit/phpunit": "^9.4.1",
+                "phpunit/phpunit": "^9.5.11",
                 "psalm/plugin-phpunit": "^0.15.0",
-                "vimeo/psalm": "^4.3"
+                "vimeo/psalm": "^4.17"
             },
             "suggest": {
                 "mezzio/mezzio-aurarouter": "^3.0 to use the Aura.Router routing adapter",
@@ -1115,7 +1115,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-09-14T04:06:31+00:00"
+            "time": "2022-01-06T16:27:49+00:00"
         },
         {
             "name": "mezzio/mezzio-template",

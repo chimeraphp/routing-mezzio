@@ -16,7 +16,7 @@
         "laminas/laminas-diactoros": "^2.8",
         "mezzio/mezzio": "^3.7",
         "mezzio/mezzio-fastroute": "^3.3",
-        "mezzio/mezzio-helpers": "^5.7",
+        "mezzio/mezzio-helpers": "^5.8",
         "mezzio/mezzio-router": "^3.4",
         "psr/http-message": "^1.0"
     },
