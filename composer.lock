@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f5f9c08d74333d9d15e50505622a5a1",
+    "content-hash": "68293cec08f66d1c8ca55a5646506fad",
     "packages": [
         {
             "name": "brick/math",
@@ -3531,16 +3531,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.2.0",
+            "version": "1.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "cbe085f9fdead5b6d62e4c022ca52dc9427a10ee"
+                "reference": "898c479c39caa727bedf4311dd294a8f4e250e72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/cbe085f9fdead5b6d62e4c022ca52dc9427a10ee",
-                "reference": "cbe085f9fdead5b6d62e4c022ca52dc9427a10ee",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/898c479c39caa727bedf4311dd294a8f4e250e72",
+                "reference": "898c479c39caa727bedf4311dd294a8f4e250e72",
                 "shasum": ""
             },
             "require": {
@@ -3554,11 +3554,6 @@
                 "phpstan.phar"
             ],
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2-dev"
-                }
-            },
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -3571,7 +3566,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.2.0"
+                "source": "https://github.com/phpstan/phpstan/tree/1.4.10"
             },
             "funding": [
                 {
@@ -3591,7 +3586,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-18T14:09:01+00:00"
+            "time": "2022-03-14T10:25:45+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
