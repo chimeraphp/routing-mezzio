@@ -10,7 +10,7 @@ use Psr\Http\Message\ServerRequestInterface;
 
 final class Application implements ApplicationInterface
 {
-    public function __construct(private Mezzio $application)
+    public function __construct(private readonly Mezzio $application)
     {
     }
 

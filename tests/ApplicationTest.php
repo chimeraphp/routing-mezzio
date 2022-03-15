@@ -25,12 +25,8 @@ use Psr\Http\Server\RequestHandlerInterface;
 final class ApplicationTest extends TestCase
 {
     private Mezzio $mezzio;
-
-    /** @var EmitterInterface&MockObject */
-    private EmitterInterface $emitter;
-
-    /** @var MiddlewarePipeInterface&MockObject */
-    private MiddlewarePipeInterface $pipeline;
+    private EmitterInterface&MockObject $emitter;
+    private MiddlewarePipeInterface&MockObject $pipeline;
 
     /** @before */
     public function createDependencies(): void

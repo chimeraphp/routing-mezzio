@@ -14,4 +14,12 @@
     <file>tests</file>
 
     <rule ref="Lcobucci" />
+
+    <!-- PHPCS doesn't support all PHP 8.1+ features yet -->
+    <rule ref="PSR12.Operators.OperatorSpacing.NoSpaceBefore">
+        <exclude-pattern>tests</exclude-pattern>
+    </rule>
+    <rule ref="PSR12.Operators.OperatorSpacing.NoSpaceAfter">
+        <exclude-pattern>tests</exclude-pattern>
+    </rule>
 </ruleset>
