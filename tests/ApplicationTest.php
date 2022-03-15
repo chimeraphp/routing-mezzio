@@ -41,8 +41,8 @@ final class ApplicationTest extends TestCase
             new RequestHandlerRunner(
                 $this->createMock(RequestHandlerInterface::class),
                 $this->emitter,
-                [ServerRequestFactory::class, 'fromGlobals'],
-                [new ResponseFactory(), 'createResponse'],
+                static fn (): ServerRequestInterface => ServerRequestFactory::fromGlobals(),
+                static fn (): ResponseInterface => (new ResponseFactory())->createResponse(),
             ),
         );
     }
