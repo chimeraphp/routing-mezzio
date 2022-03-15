@@ -14,7 +14,7 @@ use function is_array;
 
 final class UriGenerator implements UriGeneratorInterface
 {
-    public function __construct(private RouterInterface $router)
+    public function __construct(private readonly RouterInterface $router)
     {
     }
 
@@ -45,7 +45,7 @@ final class UriGenerator implements UriGeneratorInterface
 
         // TODO: now that we have PHP 8.0+ we can leverage the Stringable interface
         if ($generatedId !== null) {
-            $substitutions['id'] = (string) $generatedId;  // @phpstan-ignore-line
+            $substitutions['id'] = (string) $generatedId; // @phpstan-ignore-line
         }
 
         return $substitutions + $routeParams;

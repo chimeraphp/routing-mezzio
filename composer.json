@@ -10,21 +10,21 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "chimera/foundation": "^0.5.x-dev",
-        "chimera/routing": "^0.5.x-dev",
+        "php": "^8.1",
+        "chimera/foundation": "^1.0.x-dev",
+        "chimera/routing": "^1.0.x-dev",
         "laminas/laminas-diactoros": "^2.8",
-        "mezzio/mezzio": "^3.7",
-        "mezzio/mezzio-fastroute": "^3.3",
-        "mezzio/mezzio-helpers": "^5.7",
-        "mezzio/mezzio-router": "^3.4",
+        "mezzio/mezzio": "^3.10",
+        "mezzio/mezzio-fastroute": "^3.5",
+        "mezzio/mezzio-helpers": "^5.8",
+        "mezzio/mezzio-router": "^3.8",
         "psr/http-message": "^1.0"
     },
     "require-dev": {
         "infection/infection": "^0.26",
         "lcobucci/coding-standard": "^8.0",
         "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan": "^1.2",
+        "phpstan/phpstan": "^1.4",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
         "phpstan/phpstan-strict-rules": "^1.0",
@@ -47,6 +47,11 @@
         }
     },
     "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true,
+            "infection/extension-installer": true
+        },
         "preferred-install": "dist",
         "sort-packages": true
     }

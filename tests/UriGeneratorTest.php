@@ -15,8 +15,7 @@ use Psr\Http\Message\ServerRequestInterface;
 /** @coversDefaultClass \Chimera\Routing\Mezzio\UriGenerator */
 final class UriGeneratorTest extends TestCase
 {
-    /** @var RouterInterface&MockObject */
-    private RouterInterface $router;
+    private RouterInterface&MockObject $router;
 
     /** @before */
     public function configureRouter(): void
