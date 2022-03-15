@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a0650161afb65afc5d17beac34a61e0",
+    "content-hash": "79bbff1c4b372d603d04c69dc766e9d8",
     "packages": [
         {
             "name": "brick/math",
@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "7f856bf152a2a3ac838717d28a352ca6ee1b223b"
+                "reference": "8c95b14c2aa47c8788408453862d8db52b11d547"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/7f856bf152a2a3ac838717d28a352ca6ee1b223b",
-                "reference": "7f856bf152a2a3ac838717d28a352ca6ee1b223b",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/8c95b14c2aa47c8788408453862d8db52b11d547",
+                "reference": "8c95b14c2aa47c8788408453862d8db52b11d547",
                 "shasum": ""
             },
             "require": {
@@ -196,7 +196,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-03-15T09:08:42+00:00"
+            "time": "2022-03-15T09:19:52+00:00"
         },
         {
             "name": "fig/http-message-util",
