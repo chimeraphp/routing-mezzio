@@ -13,7 +13,7 @@
         "php": "^8.1",
         "chimera/foundation": "^1.0.x-dev",
         "chimera/routing": "^1.0.x-dev",
-        "laminas/laminas-diactoros": "^2.19",
+        "laminas/laminas-diactoros": "^2.24",
         "mezzio/mezzio": "^3.13",
         "mezzio/mezzio-fastroute": "^3.7",
         "mezzio/mezzio-helpers": "^5.11",
